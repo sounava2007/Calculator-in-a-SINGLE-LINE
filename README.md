@@ -1,1 +1,2 @@
-# Calculator-in-a-SINGLE-LINE
+The calculator is the updated version of the older once. Here you can perform all the mathematical operations only withing a simple line and also it consumes a large difference of storage comparing with the first one!
+The first one consists of almost 45 lines code and the present project consisys of around 35 lines of code, so it can be easily identified...
