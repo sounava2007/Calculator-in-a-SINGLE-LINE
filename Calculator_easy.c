@@ -3,27 +3,27 @@
 #include <math.h>
 
 void main(){
-    int num1, num2, result;
+    float num1, num2, result;
     char opt;
     printf("Perform Full Mathematical Operation Here:\t");
-    scanf("%d %c %d", &num1, &opt, &num2);
+    scanf("%f %c %f", &num1, &opt, &num2);
 
     fflush(stdin);
     if (opt == '+'){
         result = num1 + num2;
-        printf("Result is %d\n", result);
+        printf("Result is %.2f\n", result);
     }
     else if (opt == '-'){
         result = num1 - num2;
-        printf("Result is %d\n", result);
+        printf("Result is %.2f\n", result);
     }
     else if (opt == '*'){
         result = num1 * num2;
-        printf("Result is %d\n", result);
+        printf("Result is %.2f\n", result);
     }
     else if (opt == '/'){
         result = num1 / num2;
-        printf("Result is %d\n", result);
+        printf("Result is %.2f\n", result);
     }
     else{
         printf("Invalid Statement\n");
